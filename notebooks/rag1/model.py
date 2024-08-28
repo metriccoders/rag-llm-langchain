@@ -23,7 +23,7 @@ def init_llm():
 
 
 def init_index(embed_model):
-    reader = SimpleDirectoryReader(input_dir="./docs", recursive=True)
+    reader = SimpleDirectoryReader(input_dir="./docs2", recursive=True)
     documents = reader.load_data()
 
     logging.info("index creating with %d documents", len(documents))
@@ -48,7 +48,7 @@ def init_query_engine(index):
         "${context_str}\n"
         "Considering the above information, respond to the following query:\n"
         "Question: {query_str}\n\n"
-        "Answer succinctly, starting with the phrase:'According to cyber security law, '"
+        "Answer in detail, starting with the phrase:'According to our expertise,  '"
     )
 
     qa_template = PromptTemplate(template)
