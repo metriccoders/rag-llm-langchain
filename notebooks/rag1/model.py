@@ -14,7 +14,7 @@ query_engine = None
 
 def init_llm():
     llm = Ollama(model="llama3", request_timeout=500.0)
-    embed_model = OllamaEmbedding(    model_name="llama2",
+    embed_model = OllamaEmbedding(    model_name="llama3",
     base_url="http://localhost:11434",
     ollama_additional_kwargs={"mirostat": 0},)
 
