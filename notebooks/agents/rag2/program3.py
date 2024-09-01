@@ -6,7 +6,6 @@ from llama_index.core.agent import ReActAgent
 from llama_index.llms.openai import OpenAI
 from llama_index.core.tools import FunctionTool
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex, Settings
-from llama_parse import LlamaParse
 from llama_index.core.tools import QueryEngineTool
 
 data_path = "./data"
