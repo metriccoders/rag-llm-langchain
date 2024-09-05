@@ -1,4 +1,4 @@
-```markdown
+
 # Metric Coders
 
 Welcome to the Metric Coders GitHub repository! This repository contains a comprehensive collection of Python notebooks and Python code dedicated to building Retrieval-Augmented Generation (RAG) applications using Llama-Index, Langfuse, and Langchain.
@@ -62,4 +62,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Happy coding! If you have any questions or need further assistance, feel free to open an issue or contact us.
 
-```
